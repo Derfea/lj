@@ -1,34 +1,103 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #f1f1f1;
+  border: 1.5px solid #555;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 20px; */
+  text-decoration: none;
+}
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    background-color: #f1f1f1;
-    border: 1px solid #555;
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */
-  }
-  
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: #555;
-    color: white;
-  }
-  
-  li {
-    text-align: center;
-    border-bottom: 1px solid #555;
-  }
-  
-  li:last-child {
-    border-bottom: none;
-  }
+li {
+  text-decoration: none;
+}
+
+li:hover {
+  text-decoration: none;
+}
+
+.backgroundrq {
+  background-color: gray;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.logo2 {
+  cursor: pointer;
+}
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+li {
+  text-align: center;
+  border-bottom: 0px solid #555;
+  border-top: 0px solid #555;
+}
+
+.centered {
+  position: absolute;
+  top: 10%;
+  margin-left: 100px;
+  transform: translate(-50%, -50%);
+}
+
+.about {
+  left: 10%;
+}
+
+.card-holder {
+  width: 168px;
+  height: 204px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px;
+  color: black;
+}
+
+.basimg1 {
+  border-radius: 10px;
+  height: 75px;
+}
+.backgroundrw {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.alink:hover {
+  text-decoration: none;
+}
+
+.basimg {
+  border-radius: 10px;
+  height: 80px;
+  margin-top: -11.5px;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}

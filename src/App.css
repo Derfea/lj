@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+/* .playwrite-cu-cool {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+} */
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
