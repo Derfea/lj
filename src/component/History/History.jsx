@@ -6,12 +6,7 @@ export default class History extends Component {
   render() {
     return (
       <>
-        <div
-          style={{
-            backgroundImage:
-              "http://localhost:3000/static/media/2-Photoroom.e9f8f0f07ce334d8d0fb.png",
-          }}
-        >
+        <div className="background">
           <h1>
             <i>History</i>
           </h1>

@@ -1,3 +1,8 @@
 .bordered {
   border-radius: 10px;
 }
+
+.background {
+  background-image: url("https://media.licdn.com/dms/image/C5603AQEyOxBQjdljaA/profile-displayphoto-shrink_200_200/0/1555052774260?e=2147483647&v=beta&t=WuBCsMQPtYCCJ5WCRRpdZ_iJ2W0wf-xUWxOitE2cANQ")
+    1;
+}

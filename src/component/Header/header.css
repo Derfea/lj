@@ -8,19 +8,6 @@ ul {
   height: 100%; /* Full height */
   position: fixed; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
-  color: white;
-  justify-content: space-between;
-  align-items: center;
-  /* padding: 10px 20px; */
-  text-decoration: none;
-}
-
-li {
-  text-decoration: none;
-}
-
-li:hover {
-  text-decoration: none;
 }
 
 .backgroundrq {
@@ -53,7 +40,7 @@ li {
 .centered {
   position: absolute;
   top: 10%;
-  margin-left: 100px;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -73,21 +60,16 @@ li {
 
 .basimg1 {
   border-radius: 10px;
-  height: 75px;
+  height: 80px;
 }
 .backgroundrw {
   background-color: #f1f1f1;
   color: #000;
 }
-
-.alink:hover {
-  text-decoration: none;
-}
-
 .basimg {
   border-radius: 10px;
-  height: 80px;
-  margin-top: -11.5px;
+  margin-top: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .container {

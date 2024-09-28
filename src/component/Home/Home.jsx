@@ -3,6 +3,8 @@ import "../Header/header.css";
 import logo from "../../2.png";
 import Plus from "./Plus";
 import History from "../History/History";
+import Chika from "../../1555052774260.jpg";
+import Footer from "../Footer/Footer";
 
 export default class Home extends Component {
   render() {
@@ -40,13 +42,9 @@ export default class Home extends Component {
               <br />
             </p>
             <hr />
-            <div class="card-holder">
+            <div className="card-holder">
               <a href="#About">
-                <img
-                  src="https://media.licdn.com/dms/image/C5603AQEyOxBQjdljaA/profile-displayphoto-shrink_200_200/0/1555052774260?e=2147483647&v=beta&t=WuBCsMQPtYCCJ5WCRRpdZ_iJ2W0wf-xUWxOitE2cANQ"
-                  alt="description"
-                  className="basimg1"
-                />
+                <img src={Chika} alt="description" className="basimg1" />
               </a>
               <hr />
               <p>
@@ -63,13 +61,13 @@ export default class Home extends Component {
               </p>
             </div>
             <hr />
-            <div class="card-holder">
-              <br />
+            <div className="card-holder">
+              {/* <br /> */}
               <a href="#AboutWood">
                 <img
                   src={logo}
                   width="80px"
-                  height="60px"
+                  height="80px"
                   alt="description"
                   className="basimg"
                 />{" "}
@@ -94,11 +92,9 @@ export default class Home extends Component {
 
         <div className="backgroundrw" id="About">
           <br />
-          <br />
           <h1>
             <b>
               <i>About</i>
-              <br />
               <br />
             </b>
           </h1>
@@ -154,6 +150,21 @@ export default class Home extends Component {
           // style={{ marginBottom: "100px" }}
         >
           <History />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <Footer />
         </div>
       </>
     );
